@@ -6,7 +6,7 @@ SELECT DISTINCT City
 FROM Station
 WHERE RIGHT(City, 1) IN ('a', 'e', 'i', 'o', 'u');
 
-OR
+ -- OR
   
 SELECT DISTINCT City
 FROM Station
@@ -16,7 +16,7 @@ WHERE city LIKE '%a'
    OR city LIKE '%o' 
    OR city LIKE '%u';
 
-OR
+ -- OR
 
 SELECT DISTINCT City
 FROM Station
